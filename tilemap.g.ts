@@ -1,0 +1,39 @@
+// Código generado automáticamente. No editar.
+namespace myTiles {
+    //% fixedInstance jres blockIdentity=images._tile
+    export const transparency16 = image.ofBuffer(hex``);
+
+    helpers._registerFactory("tilemap", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+            case "nivel1 acuatico":
+            case "nivel1":return tiles.createTilemap(hex`24001000050a050c0505050505050505050505050505050505050505050505050505050505050d0505020202050502060205050502050505050505050505050505050505050505080808080505050505050505050505050505050505050505050505050505050505050508050505050505050505050505050505020602020205050505050505050505050505050805050505050505050505050505050505050505050505020202050c050505050505050805050505050505050b05050505050505050505050505050505050202020505050505080505050505050505050305050c0505090505050505050505050505050505050206020505050505050505050505030505030303030505050905050505050505050502050505050505050705050505050505030505030505050505030305050505040505050505020505050505050505050905050505030505030505050505050505050303030305050505050206050505050507070705050505030303030505050505050505050505050503050505050505050c0505050505050705050505050505040505050505050505050505050503050505040502020205050505050507050505050505010101010105050505050505050505050202020505050505050505050505050505050501050505050501010505050505020202050505050505050505050505050505050505050105050505050505050501060105050505050505050505050505050505050505050101010c0c0c0c0c0c0c0c0c0c040404040c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c0c`, img`
+....................................
+.222..2.2...2..................2222.
+..............................2.....
+..........2.222..............2......
+................222.........2.......
+...................222.....2........
+.2.....................2.2..........
+.2..2222.............2.......2......
+.2..2.....22..........2.............
+.2..2.........2222.....2......222...
+.2222.............2..............2..
+...................2.....222......2.
+.....22222...........222............
+....2.....22.....222................
+...2.........2.2....................
+222222222222222222222222222222222222
+`, [myTiles.transparency16,sprites.builtin.oceanDepths6,sprites.builtin.oceanDepths4,sprites.builtin.oceanSand4,sprites.builtin.coral5,sprites.dungeon.hazardWater,sprites.castle.rock2,sprites.builtin.oceanSand0,sprites.builtin.oceanDepths3,sprites.dungeon.collectibleBlueCrystal,sprites.dungeon.chestClosed,sprites.dungeon.collectibleRedCrystal,sprites.builtin.coral2,sprites.dungeon.doorClosedNorth], TileScale.Sixteen);
+        }
+        return null;
+    })
+
+    helpers._registerFactory("tile", function(name: string) {
+        switch(helpers.stringTrim(name)) {
+            case "transparency16":return transparency16;
+        }
+        return null;
+    })
+
+}
+// Código generado automáticamente. No editar.
